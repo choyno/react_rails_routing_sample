@@ -13,18 +13,14 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+
+
+React    = require('react');
+ReactDOM  = require('react-dom');
+ReactRoutes  = require('react-router');
+//= require react_ujs
+//= require components
+
+
 //= require_tree .
-
-var React = require('react');
-var ReactDOM = require('react-dom');
-
-var App = React.createClass({
-  render() {
-    return <h1>Yo</h1>;
-  }
-});
-
-ReactDOM.render(
-   <App/>, document.getElementById('react-container')
-);
 
