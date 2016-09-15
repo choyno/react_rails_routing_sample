@@ -9,6 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/origin/choyno/react_rails_routing_sample.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,4 +21,5 @@
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   }
+
 }
