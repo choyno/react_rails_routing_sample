@@ -14,13 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 
-
-React    = require('react');
-ReactDOM  = require('react-dom');
-ReactRoutes  = require('react-router');
-//= require react_ujs
 //= require components
 
 
-//= require_tree .
 
