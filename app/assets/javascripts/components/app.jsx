@@ -18,9 +18,9 @@ var ready = function () {
     ReactDOM.render(
       <Router  history={appHistory}>
         <Route path="/" component={FrontLayout}>
-          <IndexRoute component={Home} />
-          <Route path="/home" component={Home} />
-          <Route path="/about" component={About} />
+          <IndexRoute component={Home()} />
+          <Route path="/home" component={Home()} />
+          <Route path="/about" component={About()} />
         </Route>
       </Router>,
       document.getElementById('react-container')

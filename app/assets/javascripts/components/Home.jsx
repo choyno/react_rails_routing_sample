@@ -1,7 +1,7 @@
 'use strict';
 exports.__esModule = true;
 
-Home = React.createClass({
+var Home = React.createClass({
   render: function(){
     return(
       <div>
