@@ -15,6 +15,7 @@
 //= require turbolinks
 
 //= require components
+//= require_tree ./components
 
 
 

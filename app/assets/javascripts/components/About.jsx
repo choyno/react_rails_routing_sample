@@ -1,9 +1,5 @@
-
-'use strict';
-exports.__esModule = true;
-
 var About = React.createClass({
-  render(){
+  render: function(){
     return(
       <div>
       <h1>About</h1>
@@ -12,6 +8,3 @@ var About = React.createClass({
   }
 });
 
-
-exports.default = About;
-module.exports = exports['default'];
